@@ -20,8 +20,17 @@
  * HINT: You might be able to reuse some of the logic from createNameObject()
 */
 
+function createListOfObjects(objs){
 
-
+  const newObjects= []
+  for (let i=0; i < objs.length; i++)
+    newObjects.push({
+      firstName: objs[0];
+      lastName: objs[1];
+   })
+}
+return newObjects
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 

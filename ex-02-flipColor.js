@@ -8,6 +8,31 @@
  * vice-versa.
 */
 
+// cambiar el color del titulo en el juego
+// object como entrada
+// si el objeto es de color azul se debe cambiar a rojo y viceversa
+
+
+function flipColor(object){
+	
+	let resultado = ""
+
+     if(object.color === "blue"){
+     	object.color="red"
+     }
+      else if(object.color === "red"){
+     	object.color="blue"
+     }	
+    
+    return object
+
+}
+
+
+
+
+
+
 
 
 

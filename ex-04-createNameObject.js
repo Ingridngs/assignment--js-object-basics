@@ -8,7 +8,23 @@
 **/
 
 
+function createNameObject(variable){
+   var nombre= variable.split(" ")
 
+   nameObj1={
+
+   	   firstName:"Benzo" 
+   	   lastName:"Lorenzo"
+   }
+   
+   for (let i = 0; 1> variable.length ;  i++) {
+   	Things[i]
+   }
+
+
+   console.log(variable.length)
+
+}
 
 
 

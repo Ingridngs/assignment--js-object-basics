@@ -8,6 +8,12 @@
  *
 **/
 
+function makeFullNamelist(array){
+     let newarray = [ ]
+
+	for(let i= 0; i < array.length; i++)
+console.log(newarray)
+}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

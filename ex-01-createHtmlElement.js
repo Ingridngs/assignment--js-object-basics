@@ -14,6 +14,14 @@
  *  => '<h1 class="grid small-section">Lorem ipsum dolor sit amet.</h1>'
 */
 
+function createHtmlElement(chain){
+
+  let elementos = `<${chain.element} class="${chain.classNames} "> ${chain.textContent}</${chain.element}>`;
+return elementos
+}
+
+
+
 
 
 
@@ -26,6 +34,8 @@ var exampleObj1 = {
   textContent: 'This is so freaking cool!',
   classNames: 'featured-section'
 }
+
+console.log(createHtmlElement(exampleObj1))
 
 var exampleObj2 = {
   element: 'h2',
